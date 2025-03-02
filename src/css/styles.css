@@ -248,3 +248,28 @@ nav ul li a:focus{
     background-color: var(--sections-background);
     border-radius: 10px;
 }
+
+/* ================================= Projects Section =========================================== */
+#projects-section{
+    margin: 80px auto;
+}
+
+#projects-section h1{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.projects-section-items{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.project-thumbnail{
+    flex-basis: 20%;
+}
+
+.project-thumbnail img{
+    width: 100%;
+}
