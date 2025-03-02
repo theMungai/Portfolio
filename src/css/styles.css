@@ -4,6 +4,7 @@
     --body-background: rgba(255, 255, 255);
     --sections-background: rgb(209, 213, 219);
     --text-color: rgb(23, 23, 25);
+    --orange: orange;
 
 }
 
@@ -18,7 +19,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins";
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 body{
@@ -28,6 +29,7 @@ body{
     position: relative;
 }
 
+/* ============================== Header Section ================================================= */
 header{
     width: 100%;
     padding: 30px 20px;
@@ -66,4 +68,76 @@ nav ul li a {
     padding: 10px;
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+    color: var(--orange);
+}
+
+/* =========================================== Hero page Section ================================== */
+
+#hero-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 20px 40px;
+    column-gap: 4rem;
+}
+
+#hero-page .hero-details{
+    flex-basis: 70%;
+}
+
+.hero-details h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.hero-details p {
+    width: 80%;
+    line-height: 2;
+    color: var(--text-color);
+}
+
+.social-media-section{
+    margin: 20px 0px;
+    display: flex;
+}
+
+.social-media-section a{
+    margin: 0px 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--text-color);
+}
+
+.social-media-section a i {
+    font-size: 1.3rem;
+    padding: 15px;
+    border: none;
+}
+
+.get-in-touch {
+    margin: 20px 0px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--orange);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.page-image{
+    width: 280px;   
+}
+
+.page-image img{
+    width: 100%;
+    border-radius: 100%;
+    border: 3px solid var(--text-color);
 }
