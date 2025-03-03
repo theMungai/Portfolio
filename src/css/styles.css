@@ -159,17 +159,17 @@ nav ul li a:focus{
 }
 
 /* =============================== About Section ================================================ */
-
+#about-section{
+    margin: 100px 0px;
+}
 #about-section h2{
     text-align: center;
 }
 
 .about-inner-container{
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     padding: 20px 40px;
     column-gap: 4rem;
 
@@ -189,7 +189,7 @@ nav ul li a:focus{
 
 #service-section{
     width: 85%;
-    margin: auto;
+    margin: 100px auto;
     padding: 20px 40px;
 }
 
@@ -200,7 +200,6 @@ nav ul li a:focus{
 
 .service-section-container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     column-gap: 3rem;
 }
@@ -227,7 +226,7 @@ nav ul li a:focus{
 
 /* ================================= Skills Section =========================================== */
 #skills-section {
-    margin: 80px auto;
+    margin: 100px auto;
     width: 70%;
 }
 
@@ -251,7 +250,7 @@ nav ul li a:focus{
 
 /* ================================= Projects Section =========================================== */
 #projects-section{
-    margin: 80px auto;
+    margin: 100px auto;
 }
 
 #projects-section h1{
@@ -272,4 +271,36 @@ nav ul li a:focus{
 
 .project-thumbnail img{
     width: 100%;
+}
+
+/* ================================= Contact Section =========================================== */
+#contact-section{
+    margin: 80px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-section .user-input{
+    flex-basis: 50%;
+}
+
+.user-input form{
+    width: 100%;
+    margin: 60px 0px;
+}
+
+.user-input input{
+    width: 80%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--text-color);
+    display: block;
+    padding: 10px;
+    margin: 20px 0px;
+    font-size: 1rem;
+}
+
+#contact-section .contacts-details{
+    flex-basis: 50%;
 }
