@@ -327,3 +327,11 @@ nav ul li a:focus{
 #contact-section .contacts-details{
     flex-basis: 50%;
 }
+
+footer{
+    background-color: var(--sections-background);
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
