@@ -301,6 +301,29 @@ nav ul li a:focus{
     font-size: 1rem;
 }
 
+.user-input textarea{
+    width: 80%;
+    min-height: 150px;
+    background-color: transparent;
+    border: 1px var(--text-color) solid;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+    margin: 30px 0px;
+    font-size: 1rem;
+    display: block;
+}
+
+.user-input .submit-form{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 #contact-section .contacts-details{
     flex-basis: 50%;
 }
